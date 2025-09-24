@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konverter Mata Uang Lengkap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Konverter Mata Uang</h1>
+        <p>Ubah mata uang dengan cepat dan mudah.</p>
+        <div class="converter-box">
+            <div class="input-group">
+                <label for="amount-input">Jumlah:</label>
+                <input type="number" id="amount-input" placeholder="Masukkan jumlah uang">
+            </div>
+            <div class="input-group">
+                <label for="from-currency">Dari Mata Uang:</label>
+                <select id="from-currency">
+                    </select>
+            </div>
+            <div class="input-group">
+                <label for="to-currency">Ke Mata Uang:</label>
+                <select id="to-currency">
+                    </select>
+            </div>
+            <button id="convert-btn">Konversi</button>
+            <div class="result-box">
+                <p>Hasil:</p>
+                <span id="result-output">0.00</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
